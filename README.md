@@ -1,70 +1,64 @@
-# Getting Started with Create React App
+### React and Bootstrap Project (Test 2 part 2)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is a modern and responsive portfolio web app developed with React.js and Bootstrap 5. This portfolio was created as one of the contributions for Test 2 - Part 2 - to demonstrate our front-end development skills while creating a responsive design using a component-based architecture.
 
-## Available Scripts
+### Highlights (what i had done)
 
-In the project directory, you can run:
+- Responsive Navbar with name, section links, and copyright modal.
+- Full-screen Hero Section including background image + overlay text.
+- Three-Column Skills Section using the Bootstrap grid system.
+- Gradient Footer with GitHub, LinkedIn, and Email icons.
+- Custom CSS for gradients, hover effects, and smooth scrolling.
 
-### `npm start`
+## what we have used in creation of this webpage: 
+These are the modern technologies that made it very easy to make a responsive and attractive wesbite, nowadays:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+1.	React.js – Components, state management
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+2.	Bootstrap 5 – Responsive layouts & utilities
 
-### `npm test`
+3.	React Icons – Clean icons for skills & social links
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+4.	Custom CSS – Animations, gradients, transitions
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+#### In this project, we: 
 
-### `npm run eject`
+1)	Developed a responsive one-page portfolio with multiple sections. 
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+2)	Organized code in React components (Navbar, Hero, ThreeColumn, Footer). 
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+3)	Built a responsive Navbar with links, a hamburger menu, and a modal popup. 
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+4)	Created a Hero section with a background image, centered heading, and call-to-action button. 
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+5)	Created a three-column Skills section using Bootstrap grid, with each column containing an icon, a title, and a description, building responsively on all screen sizes. 
 
-## Learn More
+6)	Built a Footer with gradient styling, copyright text, and social media icons. 
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+7)	Customized the app with all the user experience enhancements, including smooth scrolling, gradients, hover effects, and animations, using custom CSS.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
 
-### Code Splitting
+--- In summary, this project demonstrates how to combine React, Bootstrap, and custom CSS to create a professional, responsive web page.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-### Analyzing the Bundle Size
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+### Test 2 – Part 2 Compliance- (Meeting requirements of Test 2 Part 2)
 
-### Making a Progressive Web App
+- Navbar – Responsive, collapses on small screens, includes copyright modal
+- Hero Section – Background image, centered text & button
+- Three-Column Section – Bootstrap grid with title + description per column
+- Footer – Copyright + social icons
+- Customization – Gradient buttons, hover animations, smooth scrolling
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+### Steps to get Started
 
-### Advanced Configuration
+1. clone my github repository: https://github.com/ekjotkaursault/test2-bootstrap-react
+2. then in terminal type: cd my-app
+3. afterwards, npm install following with npm start, and you will be redirected to - localhost:3000 (by default)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+### Also the bottom part, includes - github , linkedin and mail to logo
+you can click on them and will be navigated to mine social - media  platforms.
+also, © 2025 Ekjot Kaur – All Rights Reserved
