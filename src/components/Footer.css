@@ -1,40 +1,49 @@
+/* Footer main container */
 .footer {
+  /* Gradient background going from dark teal to deep blue */
   background: linear-gradient(90deg, #0f2027, #203a43, #2c5364);
-  color: white;
-  padding: 20px 0;
-  margin-top: 40px;
+  color: white;               /* Default text color for footer */
+  padding: 20px 0;            /* Vertical padding inside footer */
+  margin-top: 40px;           /* Space above the footer */
 }
 
+/* Footer text styling */
 .footer p {
-  margin-top: 10px;
-  font-size: 14px;
-  color: #ddd;
+  margin-top: 10px;           /* Small space above paragraphs */
+  font-size: 14px;            /* Smaller text size for footer info */
+  color: #ddd;                /* Light gray text for softer contrast */
 }
 
+/* Social media icon container */
 .social-icons {
-  display: flex;
-  justify-content: center;
-  gap: 20px;
-  font-size: 28px;
+  display: flex;              /* Arrange icons in a row */
+  justify-content: center;    /* Center icons horizontally */
+  gap: 20px;                  /* Space between each icon */
+  font-size: 28px;            /* Icon size */
 }
 
+/* Default social media icon styling */
 .social-icons a {
-  color: #bbb;
-  transition: color 0.3s ease, transform 0.3s ease;
+  color: #bbb;                /* Light gray default icon color */
+  transition: color 0.3s ease, transform 0.3s ease; /* Smooth hover effect */
 }
 
+/* On hover, icons slightly enlarge */
 .social-icons a:hover {
-  transform: scale(1.2);
+  transform: scale(1.2);      /* Grow icon size by 20% */
 }
 
+/* GitHub hover color */
 .social-icons a[title="GitHub"]:hover {
-  color: #333;
+  color: #333;                /* Dark gray for GitHub */
 }
 
+/* LinkedIn hover color */
 .social-icons a[title="LinkedIn"]:hover {
-  color: #0e76a8;
+  color: #0e76a8;             /* LinkedIn brand blue */
 }
 
+/* Email hover color */
 .social-icons a[title="Email Me"]:hover {
-  color: #d93025;
+  color: #d93025;             /* Gmail red */
 }

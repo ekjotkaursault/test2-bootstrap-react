@@ -1,50 +1,57 @@
+/* Skills Section Container */
 .skills-section {
-  padding: 60px 0;
-  background: #f9f9f9;
-  text-align: center;
+  padding: 60px 0;           /* Vertical spacing */
+  background: #f9f9f9;       /* Light gray background */
+  text-align: center;        /* Center-align all content */
 }
 
+/* Section Title Styling  */
 .skills-title {
-  font-size: 2.2rem;
-  font-weight: bold;
-  margin-bottom: 40px;
-  color: #333;
+  font-size: 2.2rem;         /* Large font size */
+  font-weight: bold;         /* Bold text */
+  margin-bottom: 40px;       /* Space below the title */
+  color: #333;               /* Dark gray text */
 }
 
+/* Individual Skill Card */
 .skill-card {
-  padding: 30px 20px;
-  margin: 15px;
-  border-radius: 15px;
-  background: white;
-  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
-  transition: all 0.3s ease;
+  padding: 30px 20px;        /* Inner spacing for content */
+  margin: 15px;              /* Space between cards */
+  border-radius: 15px;       /* Rounded corners */
+  background: white;         /* Default card background */
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1); /* Soft shadow */
+  transition: all 0.3s ease; /* Smooth hover animation */
 }
 
+/* Hover Effect for Cards  */
 .skill-card:hover {
-  transform: translateY(-10px);
-  box-shadow: 0px 8px 25px rgba(0, 0, 0, 0.2);
-  background: linear-gradient(135deg, #ff6a00, #ee0979);
-  color: white;
+  transform: translateY(-10px); /* Lift card upward */
+  box-shadow: 0px 8px 25px rgba(0, 0, 0, 0.2); /* Stronger shadow */
+  background: linear-gradient(135deg, #ff6a00, #ee0979); /* Gradient background */
+  color: white; /* Change text color to white for contrast */
 }
 
+/*  Skill Icon Styling */
 .skill-icon {
-  font-size: 50px;
-  margin-bottom: 20px;
-  transition: color 0.3s ease;
+  font-size: 50px;           /* Large icon size */
+  margin-bottom: 20px;       /* Space below icon */
+  transition: color 0.3s ease; /* Smooth hover color transition */
 }
 
+/*  Icon Colors (default by skill type)*/
 .java {
-  color: #e76f00;
+  color: #e76f00;            /* Java orange */
 }
 
 .web {
-  color: #007bff;
+  color: #007bff;            /* Web dev blue (Bootstrap primary) */
 }
 
 .db {
-  color: #6f42c1;
+  color: #6f42c1;            /* Database purple */
 }
 
+/*  Icon hover effect inside card */
 .skill-card:hover .skill-icon {
-  color: white;
+  color: white;              /* Icons turn white on hover */
 }

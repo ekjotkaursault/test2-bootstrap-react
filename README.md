@@ -1,3 +1,4 @@
+
 ### React and Bootstrap Project (Test 2 part 2)
 
 This is a modern and responsive portfolio web app developed with React.js and Bootstrap 5. This portfolio was created as one of the contributions for Test 2 - Part 2 - to demonstrate our front-end development skills while creating a responsive design using a component-based architecture.
@@ -61,4 +62,4 @@ These are the modern technologies that made it very easy to make a responsive an
 
 ### Also the bottom part, includes - github , linkedin and mail to logo
 you can click on them and will be navigated to mine social - media  platforms.
-also, © 2025 Ekjot Kaur – All Rights Reserved
+also, © 2025 Ekjot Kaur – All Rights Reserved.
